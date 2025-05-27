@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 
 // App.js
@@ -8,6 +8,10 @@ import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import Notifications from "./pages/Notifications";
 import PrivateRoute from "./utils/PrivateRoute";
+import NotFound from "./pages/NotFound";
+// import PrivateRoute from "./utils/PrivateRoute";
+// import Notifications from "./pages/Notifications";
+// import NotFound from "./pages/NotFound";
 
 function App() {
   return (

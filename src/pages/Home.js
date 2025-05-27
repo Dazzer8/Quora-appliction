@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar";
 import Spaces from "../components/Spaces";
 import QuestionBox from "../components/QuestionBox";
+import PostCard from "../components/PostCard"; // Adjust the path based on your project structure
 import "./styles.css";
 import { useState } from "react";
 

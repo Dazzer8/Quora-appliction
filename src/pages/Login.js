@@ -5,6 +5,7 @@ import { AuthContext } from "../context/AuthContext";
 const Login = () => {
   const { login } = useContext(AuthContext);
   const [email, setEmail] = useState("");
+  // eslint-disable-next-line no-unused-vars
   const [password, setPassword] = useState("");
   const navigate = useNavigate();
 
@@ -13,6 +14,7 @@ const Login = () => {
     login({ name: "User", email }); // Dummy login
     navigate("/");
   };
+  
 
   return (
     <form onSubmit={handleSubmit}>
