@@ -22,9 +22,9 @@ const Navbar = () => {
           <Link to="/signup">Signup</Link>
         </>
       )}
-    </nav>
+</nav>
   );
-};
+}; 
 
 export default Navbar;
 // Navbar component for the Quora application

@@ -8,10 +8,7 @@ import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import Notifications from "./pages/Notifications";
 import PrivateRoute from "./utils/PrivateRoute";
-import NotFound from "./pages/NotFound";
-// import PrivateRoute from "./utils/PrivateRoute";
-// import Notifications from "./pages/Notifications";
-// import NotFound from "./pages/NotFound";
+import NotFound from "./pages/NoteFound";
 
 function App() {
   return (
